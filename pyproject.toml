@@ -9,6 +9,7 @@ dependencies = [
     "flax>=0.8.5",
     "ipykernel>=6.31.0",
     "jax>=0.4.30",
+    "jax[cuda12] ; sys_platform == 'linux'",
     "keras>=3.10.0",
     "matplotlib>=3.9.4",
     "optax>=0.2.4",
