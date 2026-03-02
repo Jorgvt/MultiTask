@@ -13,4 +13,5 @@ dependencies = [
     "keras>=3.10.0",
     "matplotlib>=3.9.4",
     "optax>=0.2.4",
+    "wandb>=0.25.0",
 ]
